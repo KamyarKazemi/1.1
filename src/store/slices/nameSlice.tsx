@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { sendData } from "../../thunks/useThunk";
+import { NameState } from "../../interfaces/storeType";
 
 const nameSlice = createSlice({
   name: "nameSlice",
